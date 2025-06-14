@@ -18,9 +18,6 @@ This is a fully interactive and visually rich Rock Paper Scissors game built usi
 3. Watch your move battle the computer's move!
 4. First to reach **10 points** wins.
 
-## 🚀 Live Demo
-You can try it on : https://rgunasundari.github.io/rock-paper-scissors
-
 ## 🛠️ Technologies Used
 
 - HTML5
