@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rock Paper Scissors Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="game-container">
+      <h1>Rock 🪨 Paper 📄 Scissors ✂️</h1>
+  
+      <div class="battle-area">
+        <div class="player-area">
+          <div id="player-move" class="move-icon">❔</div>
+          <div id="player-face" class="face-icon">😐</div>
+          <p>You</p>
+        </div>
+        <div class="vs-icon">⚡</div>
+        <div class="player-area">
+          <div id="computer-move" class="move-icon">❔</div>
+          <div id="computer-face" class="face-icon">😐</div>
+          <p>Computer</p>
+        </div>
+      </div>
+  
+      <div class="game-status" id="game-status">Choose your move to start!</div>
+      <div class="move-details" id="move-details"></div>
+  
+      <div class="choices">
+        <button class="choice" id="rock">🪨</button>
+        <button class="choice" id="paper">📄</button>
+        <button class="choice" id="scissors">✂️</button>
+      </div>
+  
+      <div class="scoreboard">
+        <div class="score-box">
+          <h2>You</h2>
+          <div id="user-score">0</div>
+        </div>
+        <div class="vs">VS</div>
+        <div class="score-box">
+          <h2>Computer</h2>
+          <div id="computer-score">0</div>
+        </div>
+      </div>
+  
+      <button class="reset-btn" onclick="resetGame()">🔁 Restart Game</button>
+  
+      <p class="footer">Designed by Guna Sundari 💖</p>
+    </div>
+  
+    <script src="script.js"></script>
+  </body>
+  
+</html>
